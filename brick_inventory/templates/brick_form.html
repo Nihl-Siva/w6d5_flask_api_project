@@ -1,0 +1,15 @@
+<form method = "POST">
+    {{ form.hidden_tag() }}
+    <div class="form-group">
+        <fieldset id="set_num-field">
+        {{ form.set_num.label }}
+        {{ form.set_num(class = "form-control", placeholder = "Set Number") }}
+        </fieldset>
+        
+       
+
+        <!-- Submit Area Button -->
+        {{ form.submit_button(class = "btn btn-primary btn-block") }}
+
+    </div>
+</form>

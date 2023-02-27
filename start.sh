@@ -1,0 +1,1 @@
+gunicorn "brick_inventory:app"
